@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, 212);
+    background: #ffff;
+
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, 212);
+
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+}
